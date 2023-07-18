@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import profilePic from '../public/vercel.svg'
 import styles from './page.module.css'
 
 export default function Home() {
@@ -18,7 +19,7 @@ export default function Home() {
           >
             By{' '}
             <Image
-              src="/vercel.svg"
+              src={profilePic}
               alt="Vercel Logo"
               className={styles.vercelLogo}
               width={100}
