@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import profilePic from '../public/vercel.svg'
+import profilePic2 from '../public/next.svg'
 import styles from './page.module.css'
 
 export default function Home() {
@@ -33,7 +34,7 @@ export default function Home() {
       <div className={styles.center}>
         <Image
           className={styles.logo}
-          src="../public/next.svg"
+          src={profilePic2}
           alt="Next.js Logo"
           width={180}
           height={37}
