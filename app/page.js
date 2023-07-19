@@ -20,7 +20,7 @@ export default function Home() {
           >
             By{' '}
             <Image
-              src={profilePic}
+              src="../app/image/vercel.svg"
               alt="Vercel Logo"
               className={styles.vercelLogo}
               width={100}
